@@ -1,7 +1,7 @@
 header {
   height: 100vh;
   padding-top: 7rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .header_container {
@@ -23,7 +23,6 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  /* position: fixed; */
   left: 0;
   top: 35%;
 }
@@ -53,9 +52,18 @@ header {
   font-size: 0.9rem;
 }
 
+.quote_div {
+  text-align: center;
+  margin-top: -6rem;
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     height: 68vh;
+  }
+
+  .quote_div {
+    margin-top: -11rem;
   }
 }
 
@@ -67,5 +75,10 @@ header {
   .header_socials,
   .scroll_down {
     display: none;
+  }
+
+  .quote_div {
+    margin: 0 auto;
+    width: 80%;
   }
 }

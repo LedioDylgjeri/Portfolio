@@ -19,6 +19,10 @@ const header = () => {
         </div>
         <a href="#contact" className='scroll_down'>Scroll to Bottom</a>
       </div>
+      <div className='quote_div'>
+        <p><i>"The bad news is time flies. The good news is you're the pilot"</i></p>
+        <p><span>-Michael Alschuler</span></p>
+      </div>
     </header>
   )
 }
