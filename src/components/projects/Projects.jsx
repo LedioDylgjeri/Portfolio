@@ -75,7 +75,7 @@ const Projects = () => {
               GitHub
             </a>
             <a 
-              href="https://google.com" 
+              href="https://food-runners.netlify.app" 
               className='btn btn-primary project-btn' 
               target="_blank" 
               rel="noopener noreferrer"
@@ -99,7 +99,7 @@ const Projects = () => {
               GitHub
             </a>
             <a 
-              href="https://google.com" 
+              href="https://c-collector.herokuapp.com/" 
               className='btn btn-primary project-btn' 
               target="_blank" 
               rel="noopener noreferrer"
