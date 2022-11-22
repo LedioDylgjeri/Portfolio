@@ -14,8 +14,9 @@
 }
 
 .portfolio_item:hover {
-  border: 2px solid rgb(106, 11, 178);
-  background: rgba(129, 8, 222, 0.483);
+  border: 2px solid rgb(122, 12, 207);
+  background: rgba(156, 51, 236, 0.841);
+  transition: ease-in 500ms;
 }
 
 .portfolio_item-image {
@@ -33,6 +34,12 @@
 .portfolio_item h3 {
   margin: 1.2rem 0 2rem;
   text-align: center;
+}
+
+.info {
+  text-align: center;
+  margin-top: -2rem;
+  font-size: 1.5rem; 
 }
 
 .project-btn {
