@@ -63,7 +63,7 @@ header {
   }
 
   .quote_div {
-    margin-top: -12rem;
+    margin-top: -10rem;
   }
 }
 
@@ -79,7 +79,8 @@ header {
   }
 
   .quote_div {
-    margin: 5rem auto;
+    margin: auto;
+    margin-top: -9rem;
     width: 80%;
   }
 }
