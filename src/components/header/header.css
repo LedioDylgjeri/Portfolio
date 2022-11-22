@@ -58,18 +58,19 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  .header {
-    height: 68vh;
+  header {
+    height: 100vh;
   }
 
   .quote_div {
-    margin-top: -11rem;
+    margin-top: -12rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .header {
+  header {
       height: 100vh;
+      margin-top: -2rem;
     }
 
   .header_socials,
@@ -78,7 +79,7 @@ header {
   }
 
   .quote_div {
-    margin: 0 auto;
+    margin: 5rem auto;
     width: 80%;
   }
 }

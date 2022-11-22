@@ -69,7 +69,5 @@
   .portfolio_container {
     grid-template-columns: 1fr;
     gap: 1rem;
-    /* margin-left: calc(50% - 11rem);
-    margin-top: 1rem; */
   }
 }
