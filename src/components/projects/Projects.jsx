@@ -22,7 +22,7 @@ const Projects = () => {
       <h2>Projects</h2>
       
       <div className='container portfolio_container'>
-        <article data-aos='fade-down' className='portfolio_item'>
+        <article data-aos='fade-up' className='portfolio_item'>
           <div className="portfolio_item-image">
             <img src={P1} alt="Connect 4" className="project-img"/>
           </div>
@@ -57,7 +57,7 @@ const Projects = () => {
             </a>
           </div>
         </article>
-        <article data-aos='fade-down' className='portfolio_item'>
+        <article data-aos='fade-up' className='portfolio_item'>
           <div className="portfolio_item-image">
             <img src={P2} alt="Connect 4" className="project-img"/>
           </div>
