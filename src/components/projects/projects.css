@@ -15,7 +15,7 @@
 
 .portfolio_item:hover {
   border: 2px solid rgb(122, 12, 207);
-  background: rgba(156, 51, 236, 0.841);
+  background: rgba(156, 51, 236, 0.464);
   transition: ease-in 500ms;
 }
 
