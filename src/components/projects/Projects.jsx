@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './projects.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import P1 from '../../assets/P1.jpeg'
 import P2 from '../../assets/P2.webp'
 import P3 from '../../assets/P3.jpg'
@@ -10,6 +12,9 @@ import { FcInfo } from 'react-icons/fc'
 import { BsDot } from 'react-icons/bs'
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({})
+  }, [])
 
   return (
     <section id='projects'>
@@ -17,7 +22,7 @@ const Projects = () => {
       <h2>Projects</h2>
       
       <div className='container portfolio_container'>
-        <article className='portfolio_item'>
+        <article data-aos='fade-down' className='portfolio_item'>
           <div className="portfolio_item-image">
             <img src={P1} alt="Connect 4" className="project-img"/>
           </div>
@@ -52,7 +57,7 @@ const Projects = () => {
             </a>
           </div>
         </article>
-        <article className='portfolio_item'>
+        <article data-aos='fade-down' className='portfolio_item'>
           <div className="portfolio_item-image">
             <img src={P2} alt="Connect 4" className="project-img"/>
           </div>
@@ -91,7 +96,7 @@ const Projects = () => {
             </a>
           </div> 
         </article>
-        <article className='portfolio_item'>
+        <article data-aos='fade-up' className='portfolio_item'>
           <div className="portfolio_item-image">
             <img src={P3} alt="Connect 4" className="project-img"/>
           </div>
@@ -130,7 +135,7 @@ const Projects = () => {
             </a>
           </div> 
         </article>
-        <article className='portfolio_item'>
+        <article data-aos='fade-up' className='portfolio_item'>
           <div className="portfolio_item-image">
             <img src={P4} alt="Connect 4" className="project-img"/>
           </div>

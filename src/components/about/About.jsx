@@ -1,15 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './about.css'
 import ME from '../../assets/ME.jpeg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { VscDebugStart } from 'react-icons/vsc'
 import { FaUserGraduate } from 'react-icons/fa'
 import { TbPlayerTrackNext } from 'react-icons/tb'
 import { RiFocus3Line } from 'react-icons/ri'
 import { BsPatchQuestionFill } from 'react-icons/bs'
 import { GiStairsGoal } from 'react-icons/gi'
-import 'animate.css';
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({})
+  }, [])
+
   return (
     <section id='about'>
       <h5>A little</h5>
@@ -18,35 +23,39 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-img">
-            <img src={ME} alt="about me img" className='img'/>
+            <img src={ME} 
+            alt="about me img" 
+            data-aos="fade-in" 
+            data-aos-duration="9"
+            className='img'/>
           </div>
         </div>
         
         <div className="about_content">
           <div className="about_cards">
-            <article className='about-card animate__animated animate__backInLeft'>
+            <article data-aos='fade-left' className='about-card'>
               < VscDebugStart className='about_icon' />
               <h5>Started my Software Engineering journey by asking 'how?' </h5>
             </article>
             
-            <article className='about-card'>
+            <article data-aos='fade-left' className='about-card'>
               < FaUserGraduate className='about_icon' />
               <h5>Attended General Assembly Software Engineering Bootcamp</h5>
             </article>
             
-            <article className='about-card animate__animated animate__backInRight'>
+            <article data-aos='fade-left' className='about-card'>
               < TbPlayerTrackNext className='about_icon' />
               <h5>Implemented the skills I attained to build applications</h5>
             </article>
-            <article className='about-card animate__animated animate__backInLeft'>
+            <article data-aos='fade-right' className='about-card'>
               < RiFocus3Line className='about_icon' />
               <h5>Focused on learning new technologies and building applications</h5>
             </article>
-            <article className='about-card'>
+            <article data-aos='fade-right' className='about-card'>
               < BsPatchQuestionFill className='about_icon' />
               <h5>Front or back end? <span role="img" aria-label="thinking">🤔</span><br/> I enjoy working on both </h5>
             </article>
-            <article className='about-card animate__animated animate__backInRight'>
+            <article data-aos='fade-right' className='about-card'>
               < GiStairsGoal className='about_icon' />
               <h5>My goals are to work on problem solving applications</h5>
             </article>
