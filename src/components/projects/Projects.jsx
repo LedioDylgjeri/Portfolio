@@ -30,6 +30,7 @@ const Projects = () => {
           <div className="info">
             <Tippy content={
               <ul>
+                <li style={{textDecoration: 'underline'}}>Technologies Used</li>
                 <li><BsDot/>Javascript</li>
                 <li><BsDot/>CSS</li>
                 <li><BsDot/>HTML</li>
@@ -65,6 +66,7 @@ const Projects = () => {
           <div className="info">
             <Tippy content={
               <ul>
+                <li style={{textDecoration: 'underline'}}>Technologies Used</li>
                 <li><BsDot/>MongoDB</li>
                 <li><BsDot/>Mongoose</li>
                 <li><BsDot/>Javascript</li>
@@ -104,6 +106,7 @@ const Projects = () => {
           <div className="info">
             <Tippy content={
               <ul>
+                <li style={{textDecoration: 'underline'}}>Technologies Used</li>
                 <li><BsDot/>MongoDB</li>
                 <li><BsDot/>Mongoose</li>
                 <li><BsDot/>Express</li>
@@ -143,6 +146,7 @@ const Projects = () => {
           <div className='info'>
             <Tippy content={
               <ul>
+                <li style={{textDecoration: 'underline'}}>Technologies Used</li>
                 <li><BsDot/>PostgreSQL</li>
                 <li><BsDot/>Python</li>
                 <li><BsDot/>Django</li>
