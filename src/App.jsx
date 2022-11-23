@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ParticleBg from './components/ParticleBg';
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -11,7 +10,6 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <>
-      <ParticleBg />
       <Header />
       <Nav />
       <About />
