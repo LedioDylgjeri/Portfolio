@@ -27,6 +27,8 @@ const Projects = () => {
             <img src={P1} alt="Connect 4" className="project-img"/>
           </div>
           <h3>Connect 4</h3>
+          <div className="underline"></div>
+          <p className='project-details'>This project was inspired by my favorite childhood game. Building this game in javascript was enjoyable.</p>
           <div className="info">
             <Tippy content={
               <ul>
@@ -63,6 +65,7 @@ const Projects = () => {
             <img src={P2} alt="Connect 4" className="project-img"/>
           </div>
           <h3>Fantasy Soccer</h3>
+          <p className='project-details'>This application gives the user a chance to create their own soccer team. Get creative with your team!</p>
           <div className="info">
             <Tippy content={
               <ul>
@@ -103,6 +106,7 @@ const Projects = () => {
             <img src={P3} alt="Connect 4" className="project-img"/>
           </div>
           <h3>Food Runner</h3>
+          <p className='project-details'>This group project is a full stack application used to order food. It has a user/business UI.</p>
           <div className="info">
             <Tippy content={
               <ul>
@@ -143,6 +147,7 @@ const Projects = () => {
             <img src={P4} alt="Connect 4" className="project-img"/>
           </div>
           <h3>Car Collector</h3>
+          <p className='project-details'>This full stack application is for car lovers who wish to crate a list of cars they want to collect.</p>
           <div className='info'>
             <Tippy content={
               <ul>
